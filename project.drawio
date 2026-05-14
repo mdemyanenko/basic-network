@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram id="packet-tracer-topology" name="Packet Tracer topology">
+    <mxGraphModel dx="1830" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-hq" value="Центральный офис" style="text;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-isp" value="Router2: интернет / ISP" style="text;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-140" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-branch" value="Филиал" style="text;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="-30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0" value="Router0&#xa;NAT, BGP, IPsec" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="Router1&#xa;NAT, BGP, IPsec" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="Router2&#xa;ISP AS 65000" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="Router3&#xa;Branch AS 65030" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="50" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mls0" value="MultilayerSwitch0&#xa;OSPF, DHCP, HSRP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="240" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="mls1" value="MultilayerSwitch1&#xa;OSPF, DHCP, HSRP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="495" y="240" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="sw0" value="Switch0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="410" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sw1" value="Switch1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="515" y="400" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sw2" value="Switch2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="420" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="pc0" value="PC0&#xa;VLAN 10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="560" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pc3" value="PC3&#xa;VLAN 20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="570" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pc4" value="PC4&#xa;VLAN 30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="570" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pc5" value="PC5&#xa;VLAN 40" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="560" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pc1" value="PC1&#xa;VLAN 50" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="555" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pc2" value="PC2&#xa;VLAN 60 ACL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="560" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r0-r1" value="eBGP 10.0.0.0/30" style="endArrow=none;html=1;strokeWidth=3;dashed=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="r0" target="r1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r0-r2" value="eBGP ISP 10.0.0.4/30" style="endArrow=none;html=1;strokeWidth=3;dashed=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="r0" target="r2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r1-r2" value="eBGP ISP 10.0.0.8/30" style="endArrow=none;html=1;strokeWidth=3;dashed=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="r1" target="r2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r2-r3" value="eBGP ISP 10.0.0.12/30" style="endArrow=none;html=1;strokeWidth=3;dashed=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="r2" target="r3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-vpn1" value="Tunnel10 GRE over IPsec" style="endArrow=none;html=1;strokeWidth=4;dashed=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" source="r0" target="r3" edge="1">
+          <mxGeometry x="0.2595" y="18" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-vpn2" value="Tunnel20 GRE over IPsec" style="endArrow=none;html=1;strokeWidth=4;dashed=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" source="r1" target="r3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r0-mls0" value="OSPF 10.0.10.0/30" style="endArrow=none;html=1;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="r0" target="mls0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r1-mls1" value="OSPF 10.0.20.0/30" style="endArrow=none;html=1;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="r1" target="mls1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-r3-sw2" value="trunk 50,60,97" style="endArrow=none;html=1;strokeWidth=3;dashed=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" source="r3" target="sw2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-po1" value="L2 EtherChannel trunk + VLAN100 OSPF" style="endArrow=none;html=1;strokeWidth=3;dashed=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" source="mls0" target="mls1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-mls0-sw0" value="trunk" style="endArrow=none;html=1;strokeWidth=3;dashed=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" source="mls0" target="sw0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-mls1-sw1" value="trunk" style="endArrow=none;html=1;strokeWidth=3;dashed=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" source="mls1" target="sw1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-sw0-pc0" value="" style="endArrow=none;html=1;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="sw0" target="pc0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-sw0-pc3" value="" style="endArrow=none;html=1;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="sw0" target="pc3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-sw1-pc4" value="" style="endArrow=none;html=1;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="sw1" target="pc4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-sw1-pc5" value="" style="endArrow=none;html=1;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="sw1" target="pc5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-sw2-pc1" value="" style="endArrow=none;html=1;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="sw2" target="pc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-sw2-pc2" value="" style="endArrow=none;html=1;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" source="sw2" target="pc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

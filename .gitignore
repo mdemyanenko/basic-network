@@ -1,0 +1,8 @@
+# Packet Tracer temporary files
+*.autosave
+*.tmp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
