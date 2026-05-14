@@ -4,7 +4,7 @@
 
 ## Состав проекта
 
-- `docs/` - описание проекта, топология, адресация, сборка и проверка.
+- `docs/` - описание проекта, топология, адресация, маршрутизация и проверка.
 - `configs/` - готовые конфигурации устройств для вставки в Cisco Packet Tracer.
 - `pics/` - логическая схема и место для скриншотов из Packet Tracer.
 - `packet-tracer/` - место для итогового файла `.pkt`.
@@ -38,16 +38,6 @@
 | `MultilayerSwitch0`, `MultilayerSwitch1` | L3-коммутаторы центрального офиса |
 | `Switch0`, `Switch1` | access-коммутаторы центрального офиса |
 | `Switch2` | access-коммутатор филиала |
-
-## Быстрый порядок сборки
-
-1. Собрать топологию по [docs/02-topology.md](docs/02-topology.md).
-2. Если используется Router 2811, добавить FastEthernet-модуль на `Router0`, `Router1`, `Router2`, чтобы появился интерфейс `Fa1/0`.
-3. Вставить конфиги из `configs/`.
-4. На ПК включить DHCP по инструкции [configs/ENDPOINTS.md](configs/ENDPOINTS.md).
-5. Сохранить файл Packet Tracer как `packet-tracer/enterprise-store-warehouse.pkt`.
-6. Сделать скриншот схемы из Packet Tracer и сохранить в `pics/packet_tracer_topology.png`.
-7. Проверить работу по [docs/06-verification.md](docs/06-verification.md).
 
 ## Ожидаемый результат
 
