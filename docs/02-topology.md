@@ -6,9 +6,7 @@
 
 `pics/packet_tracer_topology.png`
 
-После сборки в Cisco Packet Tracer нужно сделать скриншот и сохранить его как:
 
-`pics/packet_tracer_topology.png`
 
 ## Оборудование
 
